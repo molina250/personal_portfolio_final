@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Molina | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">AM.</a>
+            <div class="ms-auto d-flex gap-2">
+                <button class="btn btn-light rounded-pill px-4 border hover-lift" data-bs-toggle="modal" data-bs-target="#regModal">Sign In</button>
+                <a href="about.html" class="btn btn-primary rounded-pill px-4">Explore My Profile</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-fullscreen">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <span class="badge rounded-pill bg-light text-primary px-3 py-2 mb-3">BSIT Student</span>
+                    <h1 class="display-3 fw-800 mb-4">Hi, I'm <span class="text-primary">Alexander!</span></h1>
+                    <p class="lead text-secondary mb-5 fs-4">I specialize in building practical, clean-coded solutions at the University of Mindanao. Based in Davao City, PH.</p>
+                    <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+                        <a href="about.html" class="btn btn-outline-dark rounded-pill px-5 py-3 fw-bold hover-lift">About Me</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end mt-5 mt-lg-0">
+                    <div class="image-wrapper-large">
+                        <img src="profile.jpg" alt="Alexander Molina" class="main-profile-img hover-glow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="modal fade" id="regModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg" style="border-radius: 30px;">
+                <div class="modal-body p-5">
+                    <div class="text-center mb-4">
+                        <h2 class="fw-bold">Connect with us!</h2>
+                        <p class="text-secondary">Join the community</p>
+                    </div>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label small fw-bold">Full Name</label>
+                            <input type="text" class="form-control rounded-pill px-3" placeholder="John Doe">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label small fw-bold">Email Address</label>
+                            <input type="email" class="form-control rounded-pill px-3" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label small fw-bold">Password</label>
+                            <input type="password" class="form-control rounded-pill px-3" placeholder="••••••••">
+                        </div>
+                        <button type="button" class="btn btn-primary w-100 rounded-pill py-2 fw-bold">Register Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
